@@ -1,3 +1,3 @@
 # Satellite-Image-Classification
 
-Image classification on the DeepSat4 dataset.
+Image classification using CNN on the DeepSat4 dataset.
