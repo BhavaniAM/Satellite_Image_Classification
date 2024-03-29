@@ -4,7 +4,7 @@ This repository explains the method of Image Classification on satellite images 
 
 The dataset used is DeepSat4, which is taken from the [DeepSat](https://www.kaggle.com/datasets/crawford/deepsat-sat4) notebook on Kaggle. 
 
-**Description from the Kaggle repository:**
+## Description from the Kaggle repository
 
 Originally, the images were extracted from the National Agriculture Imagery Program (NAIP) dataset. The NAIP dataset consists of a total of 330,000 scenes spanning the whole of the Continental United States (CONUS). The average image tiles are ~6000 pixels in width and ~7000 pixels in height, measuring around 200 megabytes each. The entire NAIP dataset for CONUS is ~65 terabytes. 
 
