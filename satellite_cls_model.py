@@ -1,5 +1,7 @@
-from keras.layers import Dense, Conv2D, MaxPooling2D, Flatten, Sequential
-from keras.layers.advanced_activations import LeakyReLU
+import keras
+import tensorflow
+from keras.layers import LeakyReLU, Dense, Conv2D, MaxPooling2D, Flatten
+from tensorflow.keras import Sequential
 from keras import *
 
 def sat_class_model(num_classes):
