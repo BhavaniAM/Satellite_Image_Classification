@@ -24,7 +24,7 @@ python main.py
 ```
 ![Barren Land](/images/barren_land.png)  ![Forest Land](/images/forest_land.png)  ![Grassland](/images/grassland.png)  ![Other](/images/other.png)
 
-&emsp; Barren Land                &emsp;                     Forest Land                &emsp;                      Grassland         &emsp;               Other
+&emsp;  &emsp; Barren Land  &emsp;   &emsp; &emsp; &emsp;   Forest Land  &emsp;  &emsp;  &emsp;  Grassland  &emsp;  &emsp;  &emsp;  Other
 
 
 The ipynb file can be directly run on Colab using the 'Open in Colab' option.
