@@ -1,6 +1,6 @@
 # Satellite Image Classification
 
-This repository explains the method of Image Classification on satellite images to classify/group them using Convolutional Neural Networks into 4 different classes: Barren land, Forest, Grassland and Other (a class that consists of all land cover classes other than the previous three).
+This repository is a project on the classification of satellite images to classify/group them using Convolutional Neural Networks into 4 different classes: Barren land, Forest, Grassland and Other (a class that consists of all land cover classes other than the previous three).
 
 The dataset used is DeepSat4, which is taken from the [DeepSat](https://www.kaggle.com/datasets/crawford/deepsat-sat4) notebook on Kaggle. 
 
@@ -15,16 +15,23 @@ Once labeled, 28x28 non-overlapping sliding window blocks were extracted from th
 ## Model, Training and Testing
 
 
-400,000 images were used to train the model and 100,000 images were used as the test set. The corresponding ground truth labels are also provided. Sample images for each class are shown below:
-
-
-A convolutional neural network was used to train the model. To run the code and reproduce the results, clone the repository on your system or on Colab and run:
+400,000 images were used to train the model and 100,000 images were used as the test set. The corresponding ground truth labels are also provided. Each image is stored as a numpy array. A convolutional neural network was used to train the model. To run the code and reproduce the results, clone the repository on your system or on Colab and run:
 ```
 python main.py
 ```
+
+The file [compute_metric_score.py](https://github.com/BhavaniAM/Satellite_Image_Classification/blob/main/compute_metric_score.py) contains the code to calculate and display the accuracy metric and the classification report of the model's performance. 
+
+The [predict_class](https://github.com/BhavaniAM/Satellite_Image_Classification/blob/main/predict_class.py) function predicts the label for a random image that is passed to it from the test data of 100,000 images.  
+
+
+
+Sample images for each class are shown below:
+
+
 ![Barren Land](/images/barren_land.png)  ![Forest Land](/images/forest_land.png)  ![Grassland](/images/grassland.png)  ![Other](/images/other.png)
 
-&emsp;  &emsp; Barren Land  &emsp; &emsp; &emsp; Forest Land  &emsp;  &emsp;  &emsp; &emsp; Grassland  &emsp;  &emsp;  &emsp;  &emsp;  Other
+&emsp;  &emsp; **Barren Land**  &emsp; &emsp; &emsp; **Forest Land**  &emsp;  &emsp;  &emsp; &emsp; **Grassland**  &emsp;  &emsp;  &emsp;  &emsp;  **Other**
 
 
-The ipynb file can be directly run on Colab using the 'Open in Colab' option.
+The [ipynb](https://github.com/BhavaniAM/Satellite_Image_Classification/blob/main/Satellite_Image_Classification.ipynb) file can be directly run on Colab using the 'Open in Colab' option.
