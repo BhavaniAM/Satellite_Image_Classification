@@ -23,4 +23,8 @@ A convolutional neural network was used to train the model. To run the code and 
 python main.py
 ```
 ![Barren Land](/images/barren_land.png)  ![Forest Land](/images/forest_land.png)  ![Grassland](/images/grassland.png)  ![Other](/images/other.png)
+
+Barren Land                                     Forest Land                                      Grassland                        Other
+
+
 The ipynb file can be directly run on Colab using the 'Open in Colab' option.
