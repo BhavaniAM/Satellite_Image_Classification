@@ -18,4 +18,12 @@ Once labeled, 28x28 non-overlapping sliding window blocks were extracted from th
 400,000 images were used to train the model and 100,000 images were used as the test set. The corresponding ground truth labels are also provided. Sample images for each class are shown below:
 
 
-A convolutional neural network with four layers was used to train the model. 
+A convolutional neural network was used to train the model. To run the code and reproduce the results, clone the repository on your system or on Colab and run:
+```
+python main.py
+```
+![Barren Land](/images/barren_land.png)
+![Forest Land](/images/forest_land.png)
+![Grassland](/images/grassland.png)
+![Other](/images/other.png)
+The ipynb file can be directly run on Colab using the 'Open in Colab' option.
