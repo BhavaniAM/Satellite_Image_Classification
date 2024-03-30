@@ -2,7 +2,6 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 import numpy as np
 
 def compute_metrics(y_test, preds):
-    print("Accuracy score: ", accuracy_score(y_test, np.round_(preds)))
     print("Classification report:")
     print(classification_report(y_test, np.round_(preds)))
-    print("Accuracy of CNN model is: ", accuracy_score(y_test,np.round_(preds))*100)
+    print("Accuracy of the CNN model = ", accuracy_score(y_test, np.round_(preds))*100)
